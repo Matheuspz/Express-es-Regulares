@@ -12,8 +12,6 @@ function Validar()
     resposta_telefone = expressao_telefone.test(texto_telefone)
     resposta_cep = expressao_cep.test(texto_cep)
 
-    resposta_global = [resposta_cpf, resposta_telefonem, resposta_cep]
-
     if (resposta_cpf == false || resposta_telefone == false || resposta_cep == false)
     {
         alert("DADOS INVALIDOS") ;
